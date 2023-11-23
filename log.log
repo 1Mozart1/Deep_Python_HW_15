@@ -1,0 +1,35 @@
+INFO:log:DATE(day=2, month=11, year=2023)
+INFO:log:DATE(day=16, month=11, year=2023)
+INFO:log:DATE(day=2, month=11, year=2023)
+INFO:log:DATE(day=9, month=11, year=2023)
+INFO:log:DATE(day=2, month=11, year=2023)
+INFO:log:DATE(day=2, month=11, year=2023)
+INFO:log:DATE(day=12, month=6, year=2023)
+INFO:log:DATE(day=13, month=6, year=2023)
+INFO:log:DATE(day=14, month=6, year=2023)
+INFO:log:DATE(day=15, month=6, year=2023)
+INFO:log:DATE(day=16, month=6, year=2023)
+INFO:log:DATE(day=17, month=6, year=2023)
+INFO:log:DATE(day=18, month=6, year=2023)
+INFO:log:DATE(day=12, month=6, year=2023)
+INFO:log:DATE(day=12, month=6, year=2023)
+ERROR:log:Произошла ошибка
+Traceback (most recent call last):
+  File "D:\Education\Pthn\Seminar_Deep_Python\HW\HW_15", line 89, in <module>
+    date = get_date(input("Введите текст с датой: "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Education\Pthn\Seminar_Deep_Python\HW\HW_15", line 38, in get_date
+    num_week, week_day, month = text.split()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 3, got 2)
+INFO:log:DATE(day=2, month=11, year=2023)
+ERROR:log:Произошла ошибка
+Traceback (most recent call last):
+  File "D:\Education\Pthn\Seminar_Deep_Python\HW\HW_15", line 89, in <module>
+    date = get_date(input("Введите текст с датой вида '1-й четверг ноября': "))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Education\Pthn\Seminar_Deep_Python\HW\HW_15", line 39, in get_date
+    num_week = int(num_week.split("-")[0])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+INFO:log:DATE(day=16, month=11, year=2023)
